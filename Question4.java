@@ -18,7 +18,8 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    int base= in.nextInt();      
+    int base= in.nextInt();
+      
     //inner loop  
     for (int i= base-1; i>=0 ; i--)  
     {  
@@ -26,7 +27,7 @@ public class Question4
       for (int j=0; j<=i; j++)  
       {  
       //prints star and space  
-      System.out.print("*" + " ");  
+      System.out.print("*");  
       }  
     //throws the cursor in the next line after printing each line  
     System.out.println();  
